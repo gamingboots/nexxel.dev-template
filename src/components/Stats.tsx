@@ -58,7 +58,7 @@ const Tracks: FC = () => {
     <Card
       data={data!}
       title="My Top Tracks"
-      description="My favourite genres are rap and punk. I also listen to some hyperpop and rock."
+      description="My favourite genres are blah blah stuff"
       tracks={true}
     />
   );
@@ -71,7 +71,7 @@ const Artists: FC = () => {
     <Card
       data={data!}
       title="My Top Artists"
-      description="Powfu is <3"
+      description="Artists i like"
       tracks={false}
     />
   );

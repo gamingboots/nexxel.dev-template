@@ -37,7 +37,7 @@ const Home: NextPage = ({
         <Intro />
         <div className="pt-6 text-center pb-14 mt-96">
           <Header head="Some of my projects" />
-        </div>
+        </div>  
         <div className="flex flex-col gap-10">
           <ProjectCard
             name={genLicense.name}
@@ -86,25 +86,25 @@ const Home: NextPage = ({
 
 export async function getStaticProps() {
   const nexdle = await fetch(
-    "https://api.github.com/repos/nexxeln/nexdle"
+    "https://api.github.com/repos/dev/project"
   ).then(async (res) => {
     return await res.json();
   });
 
   const genLicense = await fetch(
-    "https://api.github.com/repos/nexxeln/license-generator"
+    "https://api.github.com/repos/dev/project"
   ).then(async (res) => {
     return await res.json();
   });
 
   const spotifyVC = await fetch(
-    "https://api.github.com/repos/nexxeln/spotify-voice-control"
+    "https://api.github.com/repos/dev/project"
   ).then(async (res) => {
     return await res.json();
   });
 
   const createt3App = await fetch(
-    "https://api.github.com/repos/nexxeln/create-t3-app"
+    "https://api.github.com/repos/dev/project"
   ).then(async (res) => {
     return await res.json();
   });

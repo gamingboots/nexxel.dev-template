@@ -14,11 +14,11 @@ const Links: FC = () => {
       {[
         {
           icon: FiGithub,
-          href: "https://github.com/nexxeln"
+          href: "https://github.com/dev"
         },
         {
           icon: FiMail,
-          href: "mailto:shoubhit2005@gmail.com"
+          href: "mailto:dev.hi@gmail.com"
         }
       ].map((link, index) => (
         <Link href={link.href} key={index} passHref>
@@ -61,11 +61,11 @@ const Intro: FC = () => {
           className="h-16 pt-2 text-5xl name w-fit"
           variants={anims.Fade}
         >
-          Shoubhit Dash
+          human being
         </motion.h1>
 
         <Wavy
-          text="Highschooler and Developer"
+          text="Developer"
           heading="p"
           className="mb-10 text-xl text-gray-900 mt-11 md:mt-3 dark:text-white"
         />
@@ -74,8 +74,7 @@ const Intro: FC = () => {
           className="mr-20 text-xl text-gray-600 dark:text-gray-400"
           variants={anims.Fade}
         >
-          17 yo self-taught developer, trying to make the world a cooler place{" "}
-          and stuff like that
+          cool developer makes cool stuff and blah blah crap
         </motion.p>
 
         <motion.p
